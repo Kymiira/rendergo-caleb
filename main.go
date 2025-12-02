@@ -25,7 +25,7 @@ const htmlPage = `
 </html>
 `
 
-func handler(w http.ResponseWriter, r *http.equest) {
+func handler(w http.ResponseWriter, r *http.request) {
 	r.ParseForm()
 
 	result := `<span style='color:red'>Try the magic word "caleb"</span>`
