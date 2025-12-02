@@ -40,7 +40,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "3000"
+		port = "10000"
 	}
 
 	http.HandleFunc("/", handler)
